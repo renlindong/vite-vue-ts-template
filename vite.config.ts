@@ -1,0 +1,76 @@
+import { defineConfig } from 'vite'
+import vue from '@vitejs/plugin-vue'
+import path from 'path'
+
+const cert = `-----BEGIN CERTIFICATE-----
+MIIEZTCCAs2gAwIBAgIRANH5hAFPxi4DfSnPR/QCj/YwDQYJKoZIhvcNAQELBQAw
+gYUxHjAcBgNVBAoTFW1rY2VydCBkZXZlbG9wbWVudCBDQTEtMCsGA1UECwwkbGlu
+ZG9uZy5yZW5AQzAyRjYwQUNNRDZUICjku7vmnpfkuJwpMTQwMgYDVQQDDCtta2Nl
+cnQgbGluZG9uZy5yZW5AQzAyRjYwQUNNRDZUICjku7vmnpfkuJwpMB4XDTIxMDgy
+NjAzMTcwNloXDTIzMTEyNjAzMTcwNlowWDEnMCUGA1UEChMebWtjZXJ0IGRldmVs
+b3BtZW50IGNlcnRpZmljYXRlMS0wKwYDVQQLDCRsaW5kb25nLnJlbkBDMDJGNjBB
+Q01ENlQgKOS7u+ael+S4nCkwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIB
+AQDrbqgwRusuEzJvh8LIU/rr64phChIy2+r6ea04ljtk0soz330Rb19844HcO0kH
+IsmXsYhq98ghLqIpA9c5T5P3xuVbcmPfeN7Mwjy9WAs78VvgPPr2AUFaPP3grnIR
+5twoDLN8H6TVl5uKpqmkmwgAsMfzonKrR+IL4+ecsB7LJEdI3OlhAYRmsNdo72yO
+dCI/XDLsoD70J9Mizo4Ils4BOhGTNi8Mr8x/z1LZ+nLGR2fvqEK7tlxGYNQKk5Uh
+Iru2J5M6YYCmU2dIAyFP1asPselv2SmXkOECV+2sv0dMOFSM6bNU9QGxDh59lC+o
+CRrzyC6zybDx/+sYDLz4YqFrAgMBAAGjfDB6MA4GA1UdDwEB/wQEAwIFoDATBgNV
+HSUEDDAKBggrBgEFBQcDATAfBgNVHSMEGDAWgBSF91tAk18B6/sjiklEIwYUFQDE
+5TAyBgNVHREEKzApgglsb2NhbGhvc3SHBH8AAAGHEAAAAAAAAAAAAAAAAAAAAAGH
+BAoMtNUwDQYJKoZIhvcNAQELBQADggGBAHevbJNjPHXNqwgzDuBvfnnue3jRK48u
+HiQHnQdyt4Gu9M1x2rnPVSglFA/6UxHKKLV5WENNS9126vqd3O2Do9pJmw0KPj8N
+64FGJ3Otscu7oLFYzzN/RqJ7hERzYDcNwkhXT7VnG9mn8tgXCLkpCxKmlZL/9m5G
+Kw3OeGAAxb+ST7VxcgSZDDMkom7rUi0igTM1gbBwMvgnM2TLWpj8CoG3dgEW5gya
+R/SX6VpZmJPmGCaGf6qhAacz0GZcC1DD3tsBywMcbTUh7vdghdZHnwZoDzUDlSxo
+BPADOJZl73EeeCpvZ/hxAuzbTTs7To++0af2lXg+agXe2kv5f3io1dv+Dlac+pkI
+rtgLLvxoIdka9PBCMVfyZokgv/VBCXBXplXw+fZTe4dFASngym1cSYPOiEVnNJFe
+5C5plvaoFLitXqyAlp7YB4NDSS04nKx1Jjj842ZZNl8Og2D6bNDAbzlmUj45oq7p
++YQkoasGQbtZBPeTvOh9arnJQHU+DwlAjg==
+-----END CERTIFICATE-----`
+
+const key = `-----BEGIN PRIVATE KEY-----
+MIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDrbqgwRusuEzJv
+h8LIU/rr64phChIy2+r6ea04ljtk0soz330Rb19844HcO0kHIsmXsYhq98ghLqIp
+A9c5T5P3xuVbcmPfeN7Mwjy9WAs78VvgPPr2AUFaPP3grnIR5twoDLN8H6TVl5uK
+pqmkmwgAsMfzonKrR+IL4+ecsB7LJEdI3OlhAYRmsNdo72yOdCI/XDLsoD70J9Mi
+zo4Ils4BOhGTNi8Mr8x/z1LZ+nLGR2fvqEK7tlxGYNQKk5UhIru2J5M6YYCmU2dI
+AyFP1asPselv2SmXkOECV+2sv0dMOFSM6bNU9QGxDh59lC+oCRrzyC6zybDx/+sY
+DLz4YqFrAgMBAAECggEBAMz1Utpkgw1jjP7nc70uzz1fmuKL//fi2JgiIZknwKEv
+mPS71Ye+K6Tv8velbRgXQuUamyZ0e/fXPzjxrQaprqmAr9+CoEvGUEB1wKcd5PnU
+TyXSMLDFuv0yJ9rYQ1ouXu9Gz2J5seh4yeJU4U754GepfwktHSLbu4CaceJIuSYi
+zaV90pJZq7qrdHsFCTQ2Tg+SmnIJYTO9kwm/DkrWi8cFmckx2khe4xz1xyGgKoxQ
+YY41AkLGsHKNbdSTnmg7SNVzkJAacR+QlCTWPOELwctmn1Vj4OO7ghDEJXx76PfZ
+VsDElDRXV6ged+X5xzyg81hUEYM/dOCZtEInoG0h8GECgYEA8h2OXpyjsMFEOZOp
+9ou3cFwANAkVC83Z0dxhkW+BUdfpU4HFkl3AfEJlnwmm37UwarrqR4dReau4qLY3
+qEaCDQddybIEMf///z8p1Td9Jpoq0QtgJI5+4gKtBiNVZENZsbQMBAeQBSC4GjDW
+vtrGtGoITHqrPd4tHHjN58jA7qkCgYEA+O78e+Mw4oO2edq4f0HaZb6ijH62kwgD
+ncr6xmedoEiTELlBJGU8RsFO3q9eR5WtAdxhzHgiWxLq3Knv61RAyCpd5LB5Oon/
+EgovKUwdGNsuzBiJ5f8La0lDFWinBReF08E0YwK3G3RfYrHec0tzRdcZQ9X9AMai
+yJwx3yuwv/MCgYAMdRDaNV0Gvyrve3WHRfEOSu2Hv9/hV5oZfilW/lG9EErlDQxJ
+V6GLwy7PXAPGBuCS3UMoowHCLN+3boi2k8olOXfN5ObqW62kSG+ylMRPtCb30ooD
+14EXx+N3KWI/Yme/CPCFVI5IdUKDtneWIlOO/NWoebdN25yelmihwGaM4QKBgQDj
+KkQiUhtkOkolPSGsj83bl3ICwAegeWnDb14V/Kxtfo0mb8gwjGnLL9DniiWBMeel
+kRV2YBMKBWNqZ3HX0RUlFPSGIz0d3Jx2O/D5wMm0yyAThDkjN/GVwE+Fk/EGxoaL
+zP4fdHTgivwYtrSHhkz1aOtXakntkVcvtsoUHGy5XQKBgQCU/dtwj6IkO+bPbgav
+On7KNL99DBg1jw0cxeYfB4kAiys6f/5VWezpBmIA82jM4JlNYL5iCamssXYqzDoo
+NaED6W5NqJcFe4OSbIBGgZvCvLAixvuqJmA/8sqFfsp2ykZjnnbHeC7EKwLA6UZW
+lHVBJ5rrcWWUNHkeJ2WtQMwRlw==
+-----END PRIVATE KEY-----
+`
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [vue()],
+  resolve: {
+    alias: {
+      '@': path.resolve(__dirname, './src')
+    }
+  },
+  server: {
+    https: {
+      key: key,
+      cert: cert
+    }
+  }
+})

@@ -120,21 +120,21 @@
 
 "@emmetio/abbreviation@^2.2.2":
   version "2.2.2"
-  resolved "https://npm.shopee.io/@emmetio%2fabbreviation/-/abbreviation-2.2.2.tgz"
+  resolved "https://npm.shopee.io/@emmetio%2fabbreviation/-/abbreviation-2.2.2.tgz#746762fd9e7a8c2ea604f580c62e3cfe250e6989"
   integrity sha512-TtE/dBnkTCct8+LntkqVrwqQao6EnPAs1YN3cUgxOxTaBlesBCY37ROUAVZrRlG64GNnVShdl/b70RfAI3w5lw==
   dependencies:
     "@emmetio/scanner" "^1.0.0"
 
 "@emmetio/css-abbreviation@^2.1.4":
   version "2.1.4"
-  resolved "https://npm.shopee.io/@emmetio%2fcss-abbreviation/-/css-abbreviation-2.1.4.tgz"
+  resolved "https://npm.shopee.io/@emmetio%2fcss-abbreviation/-/css-abbreviation-2.1.4.tgz#90362e8a1122ce3b76f6c3157907d30182f53f54"
   integrity sha512-qk9L60Y+uRtM5CPbB0y+QNl/1XKE09mSO+AhhSauIfr2YOx/ta3NJw2d8RtCFxgzHeRqFRr8jgyzThbu+MZ4Uw==
   dependencies:
     "@emmetio/scanner" "^1.0.0"
 
 "@emmetio/scanner@^1.0.0":
   version "1.0.0"
-  resolved "https://npm.shopee.io/@emmetio%2fscanner/-/scanner-1.0.0.tgz"
+  resolved "https://npm.shopee.io/@emmetio%2fscanner/-/scanner-1.0.0.tgz#065b2af6233fe7474d44823e3deb89724af42b5f"
   integrity sha512-8HqW8EVqjnCmWXVpqAOZf+EGESdkR27odcMMMGefgKXtar00SoYNSryGv//TELI4T3QFsECo78p+0lmalk/CFA==
 
 "@emotion/hash@~0.8.0":
@@ -408,56 +408,66 @@
     "@typescript-eslint/types" "4.30.0"
     eslint-visitor-keys "^2.0.0"
 
+"@vicons/ionicons4@^0.11.0":
+  version "0.11.0"
+  resolved "https://npm.shopee.io/@vicons%2fionicons4/-/ionicons4-0.11.0.tgz#a60f5ead661d473f17103ad0051ce82ad771bbe6"
+  integrity sha512-2wgc2WZiQhR5AwNfiJcjxjNb910QBqeEYFXnZ0IJtfSgSUPH7lX6HEXegly3zqvLA0dmdUvyo2kI9lF/2PSbnQ==
+
+"@vicons/ionicons5@^0.11.0":
+  version "0.11.0"
+  resolved "https://npm.shopee.io/@vicons%2fionicons5/-/ionicons5-0.11.0.tgz#54185bfa572a09df70094db1954f28bfbf1363ed"
+  integrity sha512-4IWamqtXUsuCdlW6NQc2xyoJ+PUXGMwzSrppQbdVCYg0pjYld89jOfLOIkuTWq8o2XUa+Q1/78jzWBtXMTojNg==
+
 "@vitejs/plugin-vue@^1.6.0":
   version "1.6.0"
   resolved "https://npm.shopee.io/@vitejs%2fplugin-vue/-/plugin-vue-1.6.0.tgz"
   integrity sha512-n3i8htn8pTg9M+kM3cnEfsPZx/6ngInlTroth6fA1LQTJq5aTVQ8ggaE5pPoAy9vCgHPtcaXMzwpldhqRAkebQ==
 
-"@volar/code-gen@^0.27.10":
-  version "0.27.10"
-  resolved "https://npm.shopee.io/@volar%2fcode-gen/-/code-gen-0.27.10.tgz"
-  integrity sha512-D1+3SIU+Ju0YEZnDTJdjhjpfoJr+9qvbiTuSoAOfaWPdLEJ8k+LoCIh+/JASsr32IvbJgpV3de8BSxxBw/Ct/w==
+"@volar/code-gen@^0.27.11":
+  version "0.27.11"
+  resolved "https://npm.shopee.io/@volar%2fcode-gen/-/code-gen-0.27.11.tgz#7423b89b1e04c3009e200a092c09ddb0bfa2a7f9"
+  integrity sha512-yj43hM/HnjsHLctJtKSFfEuUWSm5NyDpronFBnB2b+5XjJrb3gb6my21UhwmYoPC6kQ4tkdZiwCXTKQFNzGzCw==
   dependencies:
-    "@volar/shared" "^0.27.10"
-    "@volar/source-map" "^0.27.10"
+    "@volar/shared" "^0.27.11"
+    "@volar/source-map" "^0.27.11"
 
-"@volar/html2pug@^0.27.10":
-  version "0.27.10"
-  resolved "https://npm.shopee.io/@volar%2fhtml2pug/-/html2pug-0.27.10.tgz"
-  integrity sha512-fJNzllPVVuM/RzgFYeegt348vdAwVZZw992mtcbm0QILg2JCY2mxPBsRTLm10lg0THEhuW6Mnunonv+jo/ie0g==
+"@volar/html2pug@^0.27.11":
+  version "0.27.11"
+  resolved "https://npm.shopee.io/@volar%2fhtml2pug/-/html2pug-0.27.11.tgz#0d399f409b34d49cd248e242e7a4917fe822da19"
+  integrity sha512-2xfTafl3Nhd5IihS18tJPTiYrzHFsEpEIoJHjwfkJKokI6CFx2RtJVrIQywv2AuzHtmwMcU7ByCFI0TGsKETTw==
   dependencies:
     domelementtype "^2.2.0"
     domhandler "^4.2.0"
     htmlparser2 "^6.1.0"
     pug "^3.0.2"
 
-"@volar/shared@^0.27.10":
-  version "0.27.10"
-  resolved "https://npm.shopee.io/@volar%2fshared/-/shared-0.27.10.tgz"
-  integrity sha512-i/3U8fy9qm7FPpJPlrNny8B2TjQi2g65Soo6z4kfI7MHbh4Wu39OnmKWEm/Ux2pjhBmwYoK2U3j+OOp0mgDYYQ==
+"@volar/shared@^0.27.11":
+  version "0.27.11"
+  resolved "https://npm.shopee.io/@volar%2fshared/-/shared-0.27.11.tgz#88164d36a905cee613132c4ee175df91cb135a4a"
+  integrity sha512-bXCphjIX5B9uMszD3rKMUY+AM/cu/SqE0L/dO80oimrEM4VUv2U5Lv0JRhgMTBdPqVFvYijXvtKILw3F1K+f2g==
   dependencies:
     upath "^2.0.1"
     vscode-jsonrpc "^8.0.0-next.2"
     vscode-uri "^3.0.2"
 
-"@volar/source-map@^0.27.10":
-  version "0.27.10"
-  resolved "https://npm.shopee.io/@volar%2fsource-map/-/source-map-0.27.10.tgz"
-  integrity sha512-3KK1D9CcHRfkblR5JSJkpiPT8PeLvZ8BXamntn9CXjMwVuP6ajwUg3or0YG5YRDnNq0+4LNv4X2WDNviCQ97mw==
+"@volar/source-map@^0.27.11":
+  version "0.27.11"
+  resolved "https://npm.shopee.io/@volar%2fsource-map/-/source-map-0.27.11.tgz#09208b330b3998a24f58aa5e052ebb3f42656b48"
+  integrity sha512-hrOfuT8M3IDA8nDvJsy+HNyzvl5EXYO4LkSjAV/XaYM3NY1lYFiefdpBm4F7MDaz0OPtEMF/P0otS3dF5MY6Rg==
   dependencies:
-    "@volar/shared" "^0.27.10"
+    "@volar/shared" "^0.27.11"
 
-"@volar/transforms@^0.27.10":
-  version "0.27.10"
-  resolved "https://npm.shopee.io/@volar%2ftransforms/-/transforms-0.27.10.tgz"
-  integrity sha512-gyb0XrxsfORX7XaM0T7SxaT8IM/JmNQ/ayq11GOeSSOSY/ZwWoAbptN4m9M7JFdYPtj39PPm1rhRrRVfQJ+VbA==
+"@volar/transforms@^0.27.11":
+  version "0.27.11"
+  resolved "https://npm.shopee.io/@volar%2ftransforms/-/transforms-0.27.11.tgz#772035011320b3682ad90fb674e1fd880bdb48cc"
+  integrity sha512-EAUsrKnl67Hq+TWC5TAFRGV8JwQ2CMI0MW/3Px0q+ja/B7Y5s0XYePDGE1tcNgj3DudTPNkybt+2nZ0hDDOo0Q==
   dependencies:
-    "@volar/shared" "^0.27.10"
+    "@volar/shared" "^0.27.11"
     vscode-languageserver "^8.0.0-next.2"
 
 "@vscode/emmet-helper@^2.7.0":
   version "2.7.0"
-  resolved "https://npm.shopee.io/@vscode%2femmet-helper/-/emmet-helper-2.7.0.tgz"
+  resolved "https://npm.shopee.io/@vscode%2femmet-helper/-/emmet-helper-2.7.0.tgz#3db485f6a650196ff8bbd38ba1b9e468ec8d22f8"
   integrity sha512-LL7MoKNLUQASacQROO7hBdx5IAxsEnA0UdJFd9xXyf3sBQgz8NE3QEfo3IezE7uin8W2fkG2+EXMst3oqK6+KQ==
   dependencies:
     emmet "^2.3.0"
@@ -692,12 +702,12 @@ array.prototype.flat@^1.2.4:
 
 asap@~2.0.3:
   version "2.0.6"
-  resolved "https://npm.shopee.io/asap/-/asap-2.0.6.tgz"
+  resolved "https://npm.shopee.io/asap/-/asap-2.0.6.tgz#e50347611d7e690943208bbdafebcbc2fb866d46"
   integrity sha1-5QNHYR1+aQlDIIu9r+vLwvuGbUY=
 
 assert-never@^1.2.1:
   version "1.2.1"
-  resolved "https://npm.shopee.io/assert-never/-/assert-never-1.2.1.tgz"
+  resolved "https://npm.shopee.io/assert-never/-/assert-never-1.2.1.tgz#11f0e363bf146205fb08193b5c7b90f4d1cf44fe"
   integrity sha512-TaTivMB6pYI1kXwrFlEhLeGfOqoDNdTxjCdwRfFFkEA30Eu+k48W34nlok2EYWJfFFzqaEmichdNM7th6M5HNw==
 
 astral-regex@^2.0.0:
@@ -737,7 +747,7 @@ babel-eslint@^10.1.0:
 
 babel-walk@3.0.0-canary-5:
   version "3.0.0-canary-5"
-  resolved "https://npm.shopee.io/babel-walk/-/babel-walk-3.0.0-canary-5.tgz"
+  resolved "https://npm.shopee.io/babel-walk/-/babel-walk-3.0.0-canary-5.tgz#f66ecd7298357aee44955f235a6ef54219104b11"
   integrity sha512-GAwkz0AihzY5bkwIY5QDR+LvsRQgB/B+1foMPvi0FZPMl5fjD7ICiznUiBdLYMH1QYe6vqu4gWYytZOccLouFw==
   dependencies:
     "@babel/types" "^7.9.6"
@@ -845,7 +855,7 @@ chalk@^4.0.0, chalk@^4.1.2:
 
 character-parser@^2.2.0:
   version "2.2.0"
-  resolved "https://npm.shopee.io/character-parser/-/character-parser-2.2.0.tgz"
+  resolved "https://npm.shopee.io/character-parser/-/character-parser-2.2.0.tgz#c7ce28f36d4bcd9744e5ffc2c5fcde1c73261fc0"
   integrity sha1-x84o821LzZdE5f/CxfzeHHMmH8A=
   dependencies:
     is-regex "^1.0.3"
@@ -934,7 +944,7 @@ consolidate@^0.16.0:
 
 constantinople@^4.0.1:
   version "4.0.1"
-  resolved "https://npm.shopee.io/constantinople/-/constantinople-4.0.1.tgz"
+  resolved "https://npm.shopee.io/constantinople/-/constantinople-4.0.1.tgz#0def113fa0e4dc8de83331a5cf79c8b325213151"
   integrity sha512-vCrqcSIq4//Gx74TXXCGnHpulY1dskqLTFGDmhrGxzeXL8lF8kvXv6mpNWlJj1uD4DW23D4ljAqbY4RRaaUZIw==
   dependencies:
     "@babel/parser" "^7.6.0"
@@ -1091,7 +1101,7 @@ doctrine@^3.0.0:
 
 doctypes@^1.1.0:
   version "1.1.0"
-  resolved "https://npm.shopee.io/doctypes/-/doctypes-1.1.0.tgz"
+  resolved "https://npm.shopee.io/doctypes/-/doctypes-1.1.0.tgz#ea80b106a87538774e8a3a4a5afe293de489e0a9"
   integrity sha1-6oCxBqh1OHdOijpKWv4pPeSJ4Kk=
 
 dom-serializer@^1.0.1:
@@ -1131,7 +1141,7 @@ electron-to-chromium@^1.3.811:
 
 emmet@^2.3.0:
   version "2.3.4"
-  resolved "https://npm.shopee.io/emmet/-/emmet-2.3.4.tgz"
+  resolved "https://npm.shopee.io/emmet/-/emmet-2.3.4.tgz#5ba0d7a5569a68c7697dfa890c772e4f3179d123"
   integrity sha512-3IqSwmO+N2ZGeuhDyhV/TIOJFUbkChi53bcasSNRE7Yd+4eorbbYz4e53TpMECt38NtYkZNupQCZRlwdAYA42A==
   dependencies:
     "@emmetio/abbreviation" "^2.2.2"
@@ -1882,7 +1892,7 @@ is-date-object@^1.0.1:
 
 is-expression@^4.0.0:
   version "4.0.0"
-  resolved "https://npm.shopee.io/is-expression/-/is-expression-4.0.0.tgz"
+  resolved "https://npm.shopee.io/is-expression/-/is-expression-4.0.0.tgz#c33155962abf21d0afd2552514d67d2ec16fd2ab"
   integrity sha512-zMIXX63sxzG3XrkHkrAPvm/OVZVSCPNkwMHU8oTX7/U3AL78I0QXCEICXUM13BIa8TYGZ68PiTKfQz3yaTNr4A==
   dependencies:
     acorn "^7.1.1"
@@ -1924,7 +1934,7 @@ is-number@^7.0.0:
 
 is-promise@^2.0.0:
   version "2.2.2"
-  resolved "https://npm.shopee.io/is-promise/-/is-promise-2.2.2.tgz"
+  resolved "https://npm.shopee.io/is-promise/-/is-promise-2.2.2.tgz#39ab959ccbf9a774cf079f7b40c7a26f763135f1"
   integrity sha512-+lP4/6lKUBfQjZ2pdxThZvLUAafmZb8OAxFb8XXtiQmS35INgr85hdOGoEs124ez1FCnZJt6jau/T+alh58QFQ==
 
 is-regex@^1.0.3, is-regex@^1.1.3:
@@ -1976,7 +1986,7 @@ jest-get-type@^26.3.0:
 
 js-stringify@^1.0.2:
   version "1.0.2"
-  resolved "https://npm.shopee.io/js-stringify/-/js-stringify-1.0.2.tgz"
+  resolved "https://npm.shopee.io/js-stringify/-/js-stringify-1.0.2.tgz#1736fddfd9724f28a3682adc6230ae7e4e9679db"
   integrity sha1-Fzb939lyTyijaCrcYjCufk6Weds=
 
 js-tokens@^4.0.0:
@@ -2031,12 +2041,12 @@ json5@^1.0.1:
 
 jsonc-parser@^2.3.0:
   version "2.3.1"
-  resolved "https://npm.shopee.io/jsonc-parser/-/jsonc-parser-2.3.1.tgz"
+  resolved "https://npm.shopee.io/jsonc-parser/-/jsonc-parser-2.3.1.tgz#59549150b133f2efacca48fe9ce1ec0659af2342"
   integrity sha512-H8jvkz1O50L3dMZCsLqiuB2tA7muqbSg1AtGEkN0leAqGjsUzDJir3Zwr02BhqdcITPg3ei3mZ+HjMocAknhhg==
 
 jsonc-parser@^3.0.0:
   version "3.0.0"
-  resolved "https://npm.shopee.io/jsonc-parser/-/jsonc-parser-3.0.0.tgz"
+  resolved "https://npm.shopee.io/jsonc-parser/-/jsonc-parser-3.0.0.tgz#abdd785701c7e7eaca8a9ec8cf070ca51a745a22"
   integrity sha512-fQzRfAbIBnR0IQvftw9FJveWiHp72Fg20giDrHz6TdfB12UH/uue0D3hm57UB5KgAVuniLMCaS8P1IMj9NR7cA==
 
 jsonfile@^6.0.1:
@@ -2050,7 +2060,7 @@ jsonfile@^6.0.1:
 
 jstransformer@1.0.0:
   version "1.0.0"
-  resolved "https://npm.shopee.io/jstransformer/-/jstransformer-1.0.0.tgz"
+  resolved "https://npm.shopee.io/jstransformer/-/jstransformer-1.0.0.tgz#ed8bf0921e2f3f1ed4d5c1a44f68709ed24722c3"
   integrity sha1-7Yvwkh4vPx7U1cGkT2hwntJHIsM=
   dependencies:
     is-promise "^2.0.0"
@@ -2645,7 +2655,7 @@ progress@^2.0.0:
 
 promise@^7.0.1:
   version "7.3.1"
-  resolved "https://npm.shopee.io/promise/-/promise-7.3.1.tgz"
+  resolved "https://npm.shopee.io/promise/-/promise-7.3.1.tgz#064b72602b18f90f29192b8b1bc418ffd1ebd3bf"
   integrity sha512-nolQXZ/4L+bP/UGlkfaIujX9BKxGwmQ9OT4mOt5yvy8iK1h3wqTEJCijzGANTCCl9nWjY41juyAn2K3Q1hLLTg==
   dependencies:
     asap "~2.0.3"
@@ -2657,7 +2667,7 @@ prr@~1.0.1:
 
 pug-attrs@^3.0.0:
   version "3.0.0"
-  resolved "https://npm.shopee.io/pug-attrs/-/pug-attrs-3.0.0.tgz"
+  resolved "https://npm.shopee.io/pug-attrs/-/pug-attrs-3.0.0.tgz#b10451e0348165e31fad1cc23ebddd9dc7347c41"
   integrity sha512-azINV9dUtzPMFQktvTXciNAfAuVh/L/JCl0vtPCwvOA21uZrC08K/UnmrL+SXGEVc1FwzjW62+xw5S/uaLj6cA==
   dependencies:
     constantinople "^4.0.1"
@@ -2666,7 +2676,7 @@ pug-attrs@^3.0.0:
 
 pug-code-gen@^3.0.2:
   version "3.0.2"
-  resolved "https://npm.shopee.io/pug-code-gen/-/pug-code-gen-3.0.2.tgz"
+  resolved "https://npm.shopee.io/pug-code-gen/-/pug-code-gen-3.0.2.tgz#ad190f4943133bf186b60b80de483100e132e2ce"
   integrity sha512-nJMhW16MbiGRiyR4miDTQMRWDgKplnHyeLvioEJYbk1RsPI3FuA3saEP8uwnTb2nTJEKBU90NFVWJBk4OU5qyg==
   dependencies:
     constantinople "^4.0.1"
@@ -2680,12 +2690,12 @@ pug-code-gen@^3.0.2:
 
 pug-error@^2.0.0:
   version "2.0.0"
-  resolved "https://npm.shopee.io/pug-error/-/pug-error-2.0.0.tgz"
+  resolved "https://npm.shopee.io/pug-error/-/pug-error-2.0.0.tgz#5c62173cb09c34de2a2ce04f17b8adfec74d8ca5"
   integrity sha512-sjiUsi9M4RAGHktC1drQfCr5C5eriu24Lfbt4s+7SykztEOwVZtbFk1RRq0tzLxcMxMYTBR+zMQaG07J/btayQ==
 
 pug-filters@^4.0.0:
   version "4.0.0"
-  resolved "https://npm.shopee.io/pug-filters/-/pug-filters-4.0.0.tgz"
+  resolved "https://npm.shopee.io/pug-filters/-/pug-filters-4.0.0.tgz#d3e49af5ba8472e9b7a66d980e707ce9d2cc9b5e"
   integrity sha512-yeNFtq5Yxmfz0f9z2rMXGw/8/4i1cCFecw/Q7+D0V2DdtII5UvqE12VaZ2AY7ri6o5RNXiweGH79OCq+2RQU4A==
   dependencies:
     constantinople "^4.0.1"
@@ -2696,7 +2706,7 @@ pug-filters@^4.0.0:
 
 pug-lexer@^5.0.1:
   version "5.0.1"
-  resolved "https://npm.shopee.io/pug-lexer/-/pug-lexer-5.0.1.tgz"
+  resolved "https://npm.shopee.io/pug-lexer/-/pug-lexer-5.0.1.tgz#ae44628c5bef9b190b665683b288ca9024b8b0d5"
   integrity sha512-0I6C62+keXlZPZkOJeVam9aBLVP2EnbeDw3An+k0/QlqdwH6rv8284nko14Na7c0TtqtogfWXcRoFE4O4Ff20w==
   dependencies:
     character-parser "^2.2.0"
@@ -2705,7 +2715,7 @@ pug-lexer@^5.0.1:
 
 pug-linker@^4.0.0:
   version "4.0.0"
-  resolved "https://npm.shopee.io/pug-linker/-/pug-linker-4.0.0.tgz"
+  resolved "https://npm.shopee.io/pug-linker/-/pug-linker-4.0.0.tgz#12cbc0594fc5a3e06b9fc59e6f93c146962a7708"
   integrity sha512-gjD1yzp0yxbQqnzBAdlhbgoJL5qIFJw78juN1NpTLt/mfPJ5VgC4BvkoD3G23qKzJtIIXBbcCt6FioLSFLOHdw==
   dependencies:
     pug-error "^2.0.0"
@@ -2713,7 +2723,7 @@ pug-linker@^4.0.0:
 
 pug-load@^3.0.0:
   version "3.0.0"
-  resolved "https://npm.shopee.io/pug-load/-/pug-load-3.0.0.tgz"
+  resolved "https://npm.shopee.io/pug-load/-/pug-load-3.0.0.tgz#9fd9cda52202b08adb11d25681fb9f34bd41b662"
   integrity sha512-OCjTEnhLWZBvS4zni/WUMjH2YSUosnsmjGBB1An7CsKQarYSWQ0GCVyd4eQPMFJqZ8w9xgs01QdiZXKVjk92EQ==
   dependencies:
     object-assign "^4.1.1"
@@ -2721,7 +2731,7 @@ pug-load@^3.0.0:
 
 pug-parser@^6.0.0:
   version "6.0.0"
-  resolved "https://npm.shopee.io/pug-parser/-/pug-parser-6.0.0.tgz"
+  resolved "https://npm.shopee.io/pug-parser/-/pug-parser-6.0.0.tgz#a8fdc035863a95b2c1dc5ebf4ecf80b4e76a1260"
   integrity sha512-ukiYM/9cH6Cml+AOl5kETtM9NR3WulyVP2y4HOU45DyMim1IeP/OOiyEWRr6qk5I5klpsBnbuHpwKmTx6WURnw==
   dependencies:
     pug-error "^2.0.0"
@@ -2729,24 +2739,24 @@ pug-parser@^6.0.0:
 
 pug-runtime@^3.0.0, pug-runtime@^3.0.1:
   version "3.0.1"
-  resolved "https://npm.shopee.io/pug-runtime/-/pug-runtime-3.0.1.tgz"
+  resolved "https://npm.shopee.io/pug-runtime/-/pug-runtime-3.0.1.tgz#f636976204723f35a8c5f6fad6acda2a191b83d7"
   integrity sha512-L50zbvrQ35TkpHwv0G6aLSuueDRwc/97XdY8kL3tOT0FmhgG7UypU3VztfV/LATAvmUfYi4wNxSajhSAeNN+Kg==
 
 pug-strip-comments@^2.0.0:
   version "2.0.0"
-  resolved "https://npm.shopee.io/pug-strip-comments/-/pug-strip-comments-2.0.0.tgz"
+  resolved "https://npm.shopee.io/pug-strip-comments/-/pug-strip-comments-2.0.0.tgz#f94b07fd6b495523330f490a7f554b4ff876303e"
   integrity sha512-zo8DsDpH7eTkPHCXFeAk1xZXJbyoTfdPlNR0bK7rpOMuhBYb0f5qUVCO1xlsitYd3w5FQTK7zpNVKb3rZoUrrQ==
   dependencies:
     pug-error "^2.0.0"
 
 pug-walk@^2.0.0:
   version "2.0.0"
-  resolved "https://npm.shopee.io/pug-walk/-/pug-walk-2.0.0.tgz"
+  resolved "https://npm.shopee.io/pug-walk/-/pug-walk-2.0.0.tgz#417aabc29232bb4499b5b5069a2b2d2a24d5f5fe"
   integrity sha512-yYELe9Q5q9IQhuvqsZNwA5hfPkMJ8u92bQLIMcsMxf/VADjNtEYptU+inlufAFYcWdHlwNfZOEnOOQrZrcyJCQ==
 
 pug@^3.0.2:
   version "3.0.2"
-  resolved "https://npm.shopee.io/pug/-/pug-3.0.2.tgz"
+  resolved "https://npm.shopee.io/pug/-/pug-3.0.2.tgz#f35c7107343454e43bc27ae0ff76c731b78ea535"
   integrity sha512-bp0I/hiK1D1vChHh6EfDxtndHji55XP/ZJKwsRqrz6lRia6ZC2OZbdAymlxdVFwd1L70ebrVJw4/eZ79skrIaw==
   dependencies:
     pug-code-gen "^3.0.2"
@@ -2827,7 +2837,7 @@ regexpp@^3.0.0, regexpp@^3.1.0:
 
 request-light@^0.5.4:
   version "0.5.4"
-  resolved "https://npm.shopee.io/request-light/-/request-light-0.5.4.tgz"
+  resolved "https://npm.shopee.io/request-light/-/request-light-0.5.4.tgz#497a98c6d8ae49536417a5e2d7f383b934f3e38c"
   integrity sha512-t3566CMweOFlUk7Y1DJMu5OrtpoZEb6aSTsLQVT3wtrIEJ5NhcY9G/Oqxvjllzl4a15zXfFlcr9q40LbLVQJqw==
 
 require-from-string@^2.0.2:
@@ -3189,7 +3199,7 @@ to-regex-range@^5.0.1:
 
 token-stream@1.0.0:
   version "1.0.0"
-  resolved "https://npm.shopee.io/token-stream/-/token-stream-1.0.0.tgz"
+  resolved "https://npm.shopee.io/token-stream/-/token-stream-1.0.0.tgz#cc200eab2613f4166d27ff9afc7ca56d49df6eb4"
   integrity sha1-zCAOqyYT9BZtJ/+a/HylbUnfbrQ=
 
 treemate@^0.3.0:
@@ -3253,7 +3263,7 @@ universalify@^2.0.0:
 
 upath@^2.0.1:
   version "2.0.1"
-  resolved "https://npm.shopee.io/upath/-/upath-2.0.1.tgz"
+  resolved "https://npm.shopee.io/upath/-/upath-2.0.1.tgz#50c73dea68d6f6b990f51d279ce6081665d61a8b"
   integrity sha512-1uEe95xksV1O0CYKXo8vQvN1JEbtJp7lb7C5U9HMsIp6IVwntkH/oNUzyVNQSd4S1sYk2FpSSW44FqMc8qee5w==
 
 uri-js@^4.2.2:
@@ -3308,7 +3318,7 @@ vite@^2.5.1:
 
 void-elements@^3.1.0:
   version "3.1.0"
-  resolved "https://npm.shopee.io/void-elements/-/void-elements-3.1.0.tgz"
+  resolved "https://npm.shopee.io/void-elements/-/void-elements-3.1.0.tgz#614f7fbf8d801f0bb5f0661f5b2f5785750e4f09"
   integrity sha1-YU9/v42AHwu18GYfWy9XhXUOTwk=
 
 vooks@^0.2.4, vooks@^0.2.6:
@@ -3320,7 +3330,7 @@ vooks@^0.2.4, vooks@^0.2.6:
 
 vscode-css-languageservice@^5.1.4:
   version "5.1.4"
-  resolved "https://npm.shopee.io/vscode-css-languageservice/-/vscode-css-languageservice-5.1.4.tgz"
+  resolved "https://npm.shopee.io/vscode-css-languageservice/-/vscode-css-languageservice-5.1.4.tgz#07e4c63f1c3bb06e6f3f329c32b490d20a601bab"
   integrity sha512-fIJZJMXbaBsK0ifBb2RmSiLtzwn6NrZnKn7O+0ziIjwAY+rPvSK9St2qqQXFU3reZVRAt/I4GBp40dC/THcUDA==
   dependencies:
     vscode-languageserver-textdocument "^1.0.1"
@@ -3330,7 +3340,7 @@ vscode-css-languageservice@^5.1.4:
 
 vscode-html-languageservice@^4.0.7:
   version "4.0.7"
-  resolved "https://npm.shopee.io/vscode-html-languageservice/-/vscode-html-languageservice-4.0.7.tgz"
+  resolved "https://npm.shopee.io/vscode-html-languageservice/-/vscode-html-languageservice-4.0.7.tgz#94f2ed22c821965f828222d13b5aa541b358d992"
   integrity sha512-P5TQMYpgxAdLs+PwpC7Lm+0lXCyQAC6kZ41YuPYNHVooC4XO7Y2+ncHBcQJVK4C9LU2cTOAl0lzq4WAxuwRHYw==
   dependencies:
     vscode-languageserver-textdocument "^1.0.1"
@@ -3340,7 +3350,7 @@ vscode-html-languageservice@^4.0.7:
 
 vscode-json-languageservice@^4.1.7:
   version "4.1.7"
-  resolved "https://npm.shopee.io/vscode-json-languageservice/-/vscode-json-languageservice-4.1.7.tgz"
+  resolved "https://npm.shopee.io/vscode-json-languageservice/-/vscode-json-languageservice-4.1.7.tgz#18244d62b115a5818c7526ef4339438b7175dfaa"
   integrity sha512-cwG5TwZyHYthsk2aS3W1dVgVP6Vwn3o+zscwN58uMgZt/nKuyxd9vdEB1F58Ix+S5kSKAnkUCP6hvulcoImQQQ==
   dependencies:
     jsonc-parser "^3.0.0"
@@ -3351,12 +3361,12 @@ vscode-json-languageservice@^4.1.7:
 
 vscode-jsonrpc@8.0.0-next.2, vscode-jsonrpc@^8.0.0-next.2:
   version "8.0.0-next.2"
-  resolved "https://npm.shopee.io/vscode-jsonrpc/-/vscode-jsonrpc-8.0.0-next.2.tgz"
+  resolved "https://npm.shopee.io/vscode-jsonrpc/-/vscode-jsonrpc-8.0.0-next.2.tgz#285fc294be586e4768acd67e5a42efc738a5cac0"
   integrity sha512-gxUyTBAjmwGkiHW/UaRScre2s4i98P8M7gnc3VB4DrVQUm3vQ0idi2cN9nbkfcjATx+uEt8C22j+MLN/8UzsJA==
 
 vscode-languageserver-protocol@3.17.0-next.8:
   version "3.17.0-next.8"
-  resolved "https://npm.shopee.io/vscode-languageserver-protocol/-/vscode-languageserver-protocol-3.17.0-next.8.tgz"
+  resolved "https://npm.shopee.io/vscode-languageserver-protocol/-/vscode-languageserver-protocol-3.17.0-next.8.tgz#ef2eb7423b474cccd11384239de24488e7fe818c"
   integrity sha512-P89vSuJ+FA5JzFmcOoZN13Ig1yd6LsiPOig0O5m5BSGuO/rplQegCd9J0wKpaTy7trf/SYHRoypnbUBdzy14sg==
   dependencies:
     vscode-jsonrpc "8.0.0-next.2"
@@ -3364,74 +3374,74 @@ vscode-languageserver-protocol@3.17.0-next.8:
 
 vscode-languageserver-textdocument@^1.0.1:
   version "1.0.1"
-  resolved "https://npm.shopee.io/vscode-languageserver-textdocument/-/vscode-languageserver-textdocument-1.0.1.tgz"
+  resolved "https://npm.shopee.io/vscode-languageserver-textdocument/-/vscode-languageserver-textdocument-1.0.1.tgz#178168e87efad6171b372add1dea34f53e5d330f"
   integrity sha512-UIcJDjX7IFkck7cSkNNyzIz5FyvpQfY7sdzVy+wkKN/BLaD4DQ0ppXQrKePomCxTS7RrolK1I0pey0bG9eh8dA==
 
 vscode-languageserver-types@3.17.0-next.3:
   version "3.17.0-next.3"
-  resolved "https://npm.shopee.io/vscode-languageserver-types/-/vscode-languageserver-types-3.17.0-next.3.tgz"
+  resolved "https://npm.shopee.io/vscode-languageserver-types/-/vscode-languageserver-types-3.17.0-next.3.tgz#e1f4311e08ea3193e81126154b6a342fc1c3dba3"
   integrity sha512-VQcXnhKYxUW6OiRMhG++SzmZYMJwusXknJGd+FfdOnS1yHAo734OHyR0e2eEHDlv0/oWc8RZPgx/VKSKyondVg==
 
 vscode-languageserver-types@^3.15.1, vscode-languageserver-types@^3.16.0:
   version "3.16.0"
-  resolved "https://npm.shopee.io/vscode-languageserver-types/-/vscode-languageserver-types-3.16.0.tgz"
+  resolved "https://npm.shopee.io/vscode-languageserver-types/-/vscode-languageserver-types-3.16.0.tgz#ecf393fc121ec6974b2da3efb3155644c514e247"
   integrity sha512-k8luDIWJWyenLc5ToFQQMaSrqCHiLwyKPHKPQZ5zz21vM+vIVUSvsRpcbiECH4WR88K2XZqc4ScRcZ7nk/jbeA==
 
 vscode-languageserver@^8.0.0-next.2:
   version "8.0.0-next.2"
-  resolved "https://npm.shopee.io/vscode-languageserver/-/vscode-languageserver-8.0.0-next.2.tgz"
+  resolved "https://npm.shopee.io/vscode-languageserver/-/vscode-languageserver-8.0.0-next.2.tgz#3a3daf79ff10350ea9cec5c73b5302901a955117"
   integrity sha512-7qCEXTeGZKkI8BGvlKh0JPXTY7BaWoiwQYKCcGaUgnMs34wt6F/yaKcxoC3XIouBBVyRxiI6Ml/JdztM3XYEaA==
   dependencies:
     vscode-languageserver-protocol "3.17.0-next.8"
 
 vscode-nls@^5.0.0:
   version "5.0.0"
-  resolved "https://npm.shopee.io/vscode-nls/-/vscode-nls-5.0.0.tgz"
+  resolved "https://npm.shopee.io/vscode-nls/-/vscode-nls-5.0.0.tgz#99f0da0bd9ea7cda44e565a74c54b1f2bc257840"
   integrity sha512-u0Lw+IYlgbEJFF6/qAqG2d1jQmJl0eyAGJHoAJqr2HT4M2BNuQYSEiSE75f52pXHSJm8AlTjnLLbBFPrdz2hpA==
 
-vscode-pug-languageservice@^0.27.10:
-  version "0.27.10"
-  resolved "https://npm.shopee.io/vscode-pug-languageservice/-/vscode-pug-languageservice-0.27.10.tgz"
-  integrity sha512-nxwpMPX3PgmBGyDAqt704IbhR4DdnOx0qBKoWJddlI1zQ7Rl8jLXm27PQTDzsF4cZ5JCvivNfpSxygTVaejcTQ==
+vscode-pug-languageservice@^0.27.11:
+  version "0.27.11"
+  resolved "https://npm.shopee.io/vscode-pug-languageservice/-/vscode-pug-languageservice-0.27.11.tgz#a065789f8a53c65082a4abab036fa0d95ea7bb9c"
+  integrity sha512-YRrh1Ccd3VXiqabNodL1V+tqNF9K6ExzngMRXrruSVKNkgvcfx1T7FJuWMQhWZ24aVB0389hvDm+5qZV2qR99Q==
   dependencies:
-    "@volar/code-gen" "^0.27.10"
-    "@volar/shared" "^0.27.10"
-    "@volar/source-map" "^0.27.10"
-    "@volar/transforms" "^0.27.10"
+    "@volar/code-gen" "^0.27.11"
+    "@volar/shared" "^0.27.11"
+    "@volar/source-map" "^0.27.11"
+    "@volar/transforms" "^0.27.11"
     pug-lexer "^5.0.1"
     pug-parser "^6.0.0"
     vscode-languageserver "^8.0.0-next.2"
 
-vscode-typescript-languageservice@^0.27.10:
-  version "0.27.10"
-  resolved "https://npm.shopee.io/vscode-typescript-languageservice/-/vscode-typescript-languageservice-0.27.10.tgz"
-  integrity sha512-M+6Cj0BINkc6DzqO1ciYpo2u+40crTQIpwSWJ9Uow+HnbfBsbH/wMhmOztV7uxyNVgOYzouusLnzVGsKOFJNSw==
+vscode-typescript-languageservice@^0.27.11:
+  version "0.27.11"
+  resolved "https://npm.shopee.io/vscode-typescript-languageservice/-/vscode-typescript-languageservice-0.27.11.tgz#80292bcfc5a9a73c0d3c8d1c436a2d6720b39b20"
+  integrity sha512-yUy5GTJvqTZk+MA/0l64PVc60vDkMhMM47EEHdVY6MCVYq6EnILw5GPEjST9ZYYK/5IbYqT8FjqsYXaKdBksKQ==
   dependencies:
-    "@volar/shared" "^0.27.10"
+    "@volar/shared" "^0.27.11"
     upath "^2.0.1"
     vscode-languageserver "^8.0.0-next.2"
     vscode-languageserver-textdocument "^1.0.1"
 
 vscode-uri@^2.1.2:
   version "2.1.2"
-  resolved "https://npm.shopee.io/vscode-uri/-/vscode-uri-2.1.2.tgz"
+  resolved "https://npm.shopee.io/vscode-uri/-/vscode-uri-2.1.2.tgz#c8d40de93eb57af31f3c715dd650e2ca2c096f1c"
   integrity sha512-8TEXQxlldWAuIODdukIb+TR5s+9Ds40eSJrw+1iDDA9IFORPjMELarNQE3myz5XIkWWpdprmJjm1/SxMlWOC8A==
 
 vscode-uri@^3.0.2:
   version "3.0.2"
-  resolved "https://npm.shopee.io/vscode-uri/-/vscode-uri-3.0.2.tgz"
+  resolved "https://npm.shopee.io/vscode-uri/-/vscode-uri-3.0.2.tgz#ecfd1d066cb8ef4c3a208decdbab9a8c23d055d0"
   integrity sha512-jkjy6pjU1fxUvI51P+gCsxg1u2n8LSt0W6KrCNQceaziKzff74GoWmjVG46KieVzybO1sttPQmYfrwSHey7GUA==
 
 vscode-vue-languageservice@^0.27.0:
-  version "0.27.10"
-  resolved "https://npm.shopee.io/vscode-vue-languageservice/-/vscode-vue-languageservice-0.27.10.tgz"
-  integrity sha512-jfk9uA9UrUmQjjEKZttGONWpCJV1eJHu5JTZ7rdMe0K8URWwsbYI8nmyFNUVX6N7bN7riE/hK95Hq5Jq/M183Q==
+  version "0.27.11"
+  resolved "https://npm.shopee.io/vscode-vue-languageservice/-/vscode-vue-languageservice-0.27.11.tgz#b0b564546e8ae216e6a5c0514e8bf276c159688c"
+  integrity sha512-Hpm6N43xsKO4w5x2z8qQmpB1v1LlfQntBud37OCZ1HcVAYeS+bXzRazcH4b+M0sRYPFlUSXVI+0SBtBd3/tYVg==
   dependencies:
-    "@volar/code-gen" "^0.27.10"
-    "@volar/html2pug" "^0.27.10"
-    "@volar/shared" "^0.27.10"
-    "@volar/source-map" "^0.27.10"
-    "@volar/transforms" "^0.27.10"
+    "@volar/code-gen" "^0.27.11"
+    "@volar/html2pug" "^0.27.11"
+    "@volar/shared" "^0.27.11"
+    "@volar/source-map" "^0.27.11"
+    "@volar/transforms" "^0.27.11"
     "@vscode/emmet-helper" "^2.7.0"
     "@vue/compiler-dom" "^3.2.6"
     "@vue/reactivity" "^3.2.6"
@@ -3443,8 +3453,8 @@ vscode-vue-languageservice@^0.27.0:
     vscode-json-languageservice "^4.1.7"
     vscode-languageserver "^8.0.0-next.2"
     vscode-languageserver-textdocument "^1.0.1"
-    vscode-pug-languageservice "^0.27.10"
-    vscode-typescript-languageservice "^0.27.10"
+    vscode-pug-languageservice "^0.27.11"
+    vscode-typescript-languageservice "^0.27.11"
 
 vue-eslint-parser@^7.10.0:
   version "7.10.0"
@@ -3466,10 +3476,10 @@ vue-router@4:
   dependencies:
     "@vue/devtools-api" "^6.0.0-beta.14"
 
-vue-tsc@^0.2.2:
-  version "0.2.3"
-  resolved "https://npm.shopee.io/vue-tsc/-/vue-tsc-0.2.3.tgz"
-  integrity sha512-0ahxAnQolmv6EOnv5zxeMi4vCpM4PkhjU70i/EI44OzMWq4OErjLZhEh8EXOLtMx6FBRuuqS5fiBXcuqLpoL7Q==
+vue-tsc@^0.3.0:
+  version "0.3.0"
+  resolved "https://npm.shopee.io/vue-tsc/-/vue-tsc-0.3.0.tgz#3b3872bf4f1d2e4409b57adbd826032e253db406"
+  integrity sha512-zaDRZBxwRIz1XjhNP92FqugG71st6BUMnA2EwPeXrAyzbEYVRz6TezNFceYl3QYqqN8CtaxbqUhaQEDj/ntoCA==
   dependencies:
     vscode-vue-languageservice "^0.27.0"
 
@@ -3528,7 +3538,7 @@ which@^2.0.1:
 
 with@^7.0.0:
   version "7.0.2"
-  resolved "https://npm.shopee.io/with/-/with-7.0.2.tgz"
+  resolved "https://npm.shopee.io/with/-/with-7.0.2.tgz#ccee3ad542d25538a7a7a80aad212b9828495bac"
   integrity sha512-RNGKj82nUPg3g5ygxkQl0R937xLyho1J24ItRCBTr/m1YnZkzJy1hUiHUJrc/VlsDQzsCnInEGSg3bci0Lmd4w==
   dependencies:
     "@babel/parser" "^7.9.6"

@@ -20,41 +20,37 @@ const io = new Server(httpServer, {
 io.on('connection', (socket) => {
   // ...
   console.log(io.sockets.sockets.size)
-  socket.on('join', (romId) => {
-    socket.join(romId)
-    io.to(romId).emit('new-user', {
-      user: {
-        id: socket.id
-      },
-      msg: `欢迎新用户：${socket.id}，来到房间：${romId}`
+  socket.on('join', ({ roomName, userName, id }) => {
+    socket.join(roomName)
+    io.to(roomName).emit('new-user', {
+      userName,
+      id
     })
-    console.log(socket.rooms)
-    // 通知房间里的人，交换协议？
   })
 
   // create-offer
-  socket.on('create-offer', (data: { targetId: string, sdp: string }) => {
+  socket.on('create-offer', (targetId, data) => {
     io.sockets.sockets.forEach(s => {
-      if (s.id === data.targetId) {
-        s.emit('create-offer', { originId: socket.id, sdp: data.sdp })
+      if (s.id === targetId) {
+        s.emit('create-offer', data)
       }
     })
   })
 
   // answer
-  socket.on('create-answer', (data: { targetId: string, sdp: string }) => {
+  socket.on('create-answer', (targetId, data) => {
     io.sockets.sockets.forEach(s => {
-      if (s.id === data.targetId) {
-        s.emit('create-answer', { originId: socket.id, sdp: data.sdp })
+      if (s.id === targetId) {
+        s.emit('create-answer', data)
       }
     })
   })
 
   // new-ice
-  socket.on('new-ice', (data: { targetId: string, ice: string }) => {
+  socket.on('new-ice-candidate', (targetId, data) => {
     io.sockets.sockets.forEach(s => {
-      if (s.id === data.targetId) {
-        s.emit('new-ice', { originId: socket.id, ice: data.ice })
+      if (s.id === targetId) {
+        s.emit('new-ice-candidate', data)
       }
     })
   })

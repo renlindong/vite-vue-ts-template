@@ -4,7 +4,7 @@
       v-if="!hasBaseInfo"
       :room-name="roomName"
       :user-name="userName"
-      :on-ok="handleConfirm"
+      @ok="handleConfirm"
     />
     <Meet
       v-if="hasBaseInfo"

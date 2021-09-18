@@ -128,6 +128,7 @@ const handleNewUser = (data: { userName: string, id: string }) => {
 }
 const handleOffer = async (data: { sendId: string, sendUserName: string, sdp: RTCSessionDescriptionInit }) => {
   const { sendId, sendUserName, sdp } = data
+  console.log(sdp)
   if (remotePeerMap.value.has(sendId)) {
     const { rtcPeerConnection } = remotePeerMap.value.get(sendId)!
     await rtcPeerConnection.setRemoteDescription(sdp)

@@ -26,7 +26,7 @@
   </div>
 </template>
 <script setup lang="ts">
-import { ref } from 'vue'
+import { ref, defineEmits } from 'vue'
 import { NCard, NInput, NButton } from 'naive-ui'
 
 type Question = {
@@ -36,9 +36,14 @@ type Question = {
 
 const props = defineProps<{
   roomName: string,
-  userName: string,
-  onOk: (data: Question) => unknown
+  userName: string
 }>()
+
+const emits = defineEmits<{
+  (event: 'ok', data: Question): unknown
+}>()
+
+
 
 const question = ref({
   roomName: props.roomName || '',
@@ -46,7 +51,7 @@ const question = ref({
 })
 
 const handleConfirm = () => {
-  props.onOk(question.value)
+  emits('ok', question.value)
 }
 
 </script>
